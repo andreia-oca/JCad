@@ -11,7 +11,6 @@ function check
 	imageName="cat.png"
 	cd ./..	
 	java Main $readFrom &>/dev/null
-	cp drawing.png ./tests/output/$imageName
 
 	if [ $? -eq 0 ]; then
 
